@@ -2,7 +2,7 @@
 
 int main()
 {
-    printf("\nMeu segundo programa\n");
+    printf("\nMeu primeiro programa\n");
     
     return 0;
 }
