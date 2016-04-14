@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main ()
+int main()
 {
-    printf("\nHello world, good morning!\n");
+    printf("\nMeu segundo programa\n");
     
     return 0;
 }
