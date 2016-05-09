@@ -25,8 +25,7 @@ int main()
     soma = (av1 + av2) / 2;
     
     //ultimo printf para imprimir o resultado, junto com as variáveis "nome" e "soma". É fundamental contê-las.
-    
-    printf("Ola %s, sua media eh %f", nome, soma);
+    printf("Ola %s, sua media é %f", nome, soma);
     
     return 0;
     
