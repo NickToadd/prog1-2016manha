@@ -2,7 +2,7 @@
 
 int main()
 {
-    
+    float media, soma=0;
     int i,j;
     float notas[4][3]; //coluna =, 1 e 2 = av1, av3 e av3
     
@@ -31,5 +31,21 @@ int main()
           printf("\t%.2f", notas[i][j]);   
         }
     }
+    printf("\nNome do aluno\tAV1");
+    printf("\n------------------------------------");
+    for(i=0; i<=3; i++)
+    {
+        printf("\nAluno %d\t", i+1);
+        
+        printf("\t%.2f", notas[i][0]);
+        soma = soma + notas[i][0];
+        }
+        
+        media = soma / i;
+        
+        printf("\n------------------------------------");
+        printf("\nMédia\t\t%.2f", media);
+        printf("\n------------------------------------");
+        
     return 0;
 }
